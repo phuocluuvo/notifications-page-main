@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("./assets/fonts/static/PlusJakartaSans-Medium.ttf");
+}
+body {
+  background-color: white;
+  padding-inline: 2rem;
+  font-family: "Plus Jakarta Sans";
+}
+
+.top-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top-container h4 {
+  font-size: 20px;
+}
+.top-container h4 .number {
+  font-size: 16px;
+  background-color: #073180;
+  padding: 3px 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.notification {
+  color: gray;
+  display: flex;
+  padding: 0.5rem 0.5rem;
+  margin-block: 1rem;
+  font-size: 14px;
+  border-radius: 10px;
+}
+.notification .avatar {
+  block-size: 3rem;
+}
+.notification .content {
+  margin-inline: 10px;
+}
+.notification .content .title {
+  margin: 0;
+  font-weight: bold;
+}
+.notification .content .title span {
+  font-weight: normal !important;
+}
+.notification .content .title .username {
+  font-weight: bold;
+}
+.notification .content .timestamp {
+  margin: 0;
+  color: gray;
+  font-weight: lighter;
+}
+.notification .content .message {
+  padding: 1rem;
+  border: 1px solid #c4c4c4;
+  transition: all 0.2s ease-in-out;
+}
+.notification .content .message:hover {
+  background-color: rgb(246, 250, 253);
+  border: 1px solid transparent;
+}
+.notification .content .club-title {
+  color: #073180;
+}
+.notification .content div {
+  display: flex;
+  align-items: center;
+}
+.notification .post-image {
+  block-size: 2.5rem;
+}
+
+.read {
+  background-color: rgb(246, 250, 253);
+}
+
+.unread {
+  background-color: white;
+}
+
+.display {
+  color: #ff504d;
+  font-size: 20px;
+  margin-inline: 5px;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+a:hover {
+  color: #073180;
+}/*# sourceMappingURL=index.css.map */
